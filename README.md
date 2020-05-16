@@ -1,3 +1,7 @@
 # RaceAgainstCOVID
 MIT Datathon
 Original data information can be found in the data sources file along with the BigQuery pull requests. Attached data is prepped with the Python file. The Los Angeles Data is based on buroughs and not zip codes with socioeconomic data derived from an averaging of all zip codes in an area and should be treated with caution. We hope that future information should become available for LA data to better understand the relationship between socioeconimic drivers and COVID 19 cases. We also recommend using 2020 census data in the future once it becomes available.
+
+Initial findings from the data demonstrated a link between the zip codes surrounding major airports having the highest rate of infection per 1000 people. Regressions indicated that these areas also have a higher minority population. More research is recommended to see if proportion of affected groups are consistent along zip code lines or if another variable is contributing towards the increased impact COVID 19 has on minority populations.
+
+Running simple linear regressions, we were able to best predict case rate in areas with high population density. Further machine learning research needs to be conducted to understand if this is an anomaly of the dataset, or if disease spread is harder to track across areas with lower population density. It is recommended that daily travel radius before and during COVID 19 to be included to account for possible differences.
